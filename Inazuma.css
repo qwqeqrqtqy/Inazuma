@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: block;
+    height: 150px;  /*Header Size*/
+    width: 1501.5px;
+    background-color: black;
+    background-image: url(images/icon/inazumaicon.jpg);  /*Header Image*/
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    font-family: 'Times New Roman', Times, serif;  /*Header Font*/
+}
+
+h1 {
+    font-size: 4em;  /*Header Text*/
+    padding-left: 300px;
+    padding-top: 40px;
+    margin-top: 0px;
+}
+
+header a {
+    text-decoration: none;  /*Header Navigation Underline*/
+}
+
+nav {
+    float: left;  /*Navigation Boxing Alignment*/
+    width: 180px;
+    height: 1700px;  /*Navigation Size*/
+    margin-top: 5px;
+    font-size: 1.25em;  /*Navigation Text Size*/
+    display: block;
+    padding-right: 20px;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;  /*Navigation Font*/
+}
+
+nav a {
+    text-decoration: none;  /*Navigation Text Underline*/
+}
+
+nav a:link {
+    color: #AA7EEE;
+}
+
+nav a:visited {
+    color: #D462FF;
+}
+
+nav a:hover {
+    color: white;
+}
+
+header a:link {
+    color: #AA7EEE;
+}
+
+header a:visited {
+    color: #D462FF;
+}
+
+header a:hover {
+    color: white;
+}
+
+footer a:link {
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;  /*Navigation Unordered List Type*/
+}
+
+main {
+    margin-left: 185px;
+    margin-top: -15px;
+    margin-right: 2px;
+    display: block;
+    padding-left: 15px;
+    background-color: #CECECE;
+    font-family: Georgia, 'Times New Roman', Times, serif;  /*Main Font*/
+}
+
+body {
+    font-family: Verdana, Arial, sans-serif;  /*Body Font*/
+    background-color: #6333AE;
+}
+
+h2 {
+    padding-top: 10px;
+    font-family: 'Times New Roman';  /*Heading 2 Font*/
+}
+
+hr {
+    width: 1250px; /*Line Width*/
+    height: .1em;
+    background-color: black;
+    padding-top: 1px;
+}
+
+#item-container {
+    height: 1700px;  /*Item Boxing Size*/
+    margin-top: 20px;
+}
+
+.item {
+    height: 250px;  /*Image Height*/
+    padding-top: 20px;
+}
+
+.features {
+   padding-left: 300px;
+}
+
+.price {
+    display: inline;
+    font-size: 1.75em;
+    padding-left: 50px;
+}
+
+.product {
+    display: inline;
+    font-size: 1.25em;
+    text-decoration: underline; /*Product Underline*/
+}
+
+footer {
+    display: block;
+    font-style: italic;  /*Footer Font*/
+    font-size: small;  /*Footer Text Size*/
+    margin-top: -10px;
+    text-align: center;  /*Footer Text Alignment*/
+    background-color: black;
+    color: #D462FF;  /*Footer Text Color*/
+}
+
+#mouse-container {
+    height: 3450px;  /*Mouse Boxing Height*/
+    margin-top: 20px;
+}
+
+#mouse-nav {
+    float: left;  /*Mouse Boxing Alignment*/
+    width: 180px;
+    height: 3450px;  /*Mouse Navigation Size*/
+    margin-top: 5px;
+    font-size: 1.25em;  /*Mouse Navigation Text Size*/
+    display: block;
+    padding-right: 20px;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;  /*Mouse Navigation Font*/
+}
+
+.price-ori {
+    display: inline;
+    font-size: 1.75em;  /*Index Orginal Price Font Size*/
+    padding-left: 50px;
+    text-decoration: line-through;  /*Index Original Price*/
+}
+
+.price-discount {
+    display: inline;
+    font-size: 1.75em;  /*Index Dicounted Price Font Size*/
+}
+
+#review-video {
+    display: block;
+    height: 320px;  /*Index Video Height*/
+}
+
+#keyboard-container {
+    height: 4600px;  /*Keyboard Boxing Height*/
+    margin-top: 20px;
+}
+
+#keyboard-nav {
+    float: left;  /*Keyboard Boxing Alignment*/
+    width: 180px;
+    height: 4600px;  /*Keyboard Navigation Size*/
+    margin-top: 5px;
+    font-size: 1.25em;  /*Keyboard Navigation Text Size*/
+    display: block;
+    padding-right: 20px;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;  /*Keyboard Navigation Font*/
+}
+
+.epomakersk61 {
+    margin-right: -100%;
+    margin-top: -12%;
+}
+
+#info {
+    height: 1450px;  /*Info Boxing Height*/
+    margin-top: 20px;
+}
+
+#info-nav {
+    float: left;  /*About Us Boxing Alignment*/
+    width: 180px;
+    height: 1450px;  /*About Us Navigation Size*/
+    margin-top: 5px;
+    font-size: 1.25em;  /*About Us Navigation Text Size*/
+    display: block;
+    padding-right: 20px;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;  /*About Us Navigation Font*/
+}
+
+#index-container {
+    height: 1850px;  /*Index Boxing Height*/
+    margin-top: 20px;
+}
+
+#index-nav {
+    float: left;  /*Index Boxing Alignment*/
+    width: 180px;
+    height: 1850px;  /*Index Navigation Size*/
+    margin-top: 5px;
+    font-size: 1.25em;  /*Index Navigation Text Size*/
+    display: block;
+    padding-right: 20px;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;  /*Index Navigation Font*/
+}
+
+nav li {
+    padding-top: 1em;
+}
